@@ -10,14 +10,19 @@ What value do you think it offers?
 
     The staging area is where the files are while you are editing them before you
     submit a commit. The repository holds the past and present versions of the files
-    so it keeps a record of the commits made. The working directory is a snapshot of
-    the files, so it only shows one version of the code. The staging area is beneficial
+    so it keeps a record of the commits made. The working directory is what holds the
+    files that you will be working on but only one version. The staging area is beneficial
     because it allows you to pull out the files you want to change, make edits, and
     then submit the commits instead of having to submit the files to the repository
     one at a time.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+    After you add the changed file to the staging area you can use the command
+    git diff to compare the file in the staging area to the file in the working
+    directory. You could then see if there are many differences and you have made
+    lots of changes between commits.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
