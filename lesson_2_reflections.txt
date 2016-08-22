@@ -27,6 +27,13 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Using branches could be helpful when you are trying out a new feature that
+    you are not sure will work yet. That way you can keep the working file separate
+    from the testing file until the feature is finalized, and then merge the two.
+    It would also be useful if you want to have different versions available of
+    your program, such as using different languages, having different layouts, or
+    having different levels of difficulty for a game.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
