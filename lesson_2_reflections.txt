@@ -36,6 +36,11 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+    The diagrams help visualize the branch structure because you can see where the
+    branches diverge from the master branch. This helps you see how the different
+    commits in the branches are related, what commits will be visible in a git log
+    and what commits are unreachable if you are in Detached Head state.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
