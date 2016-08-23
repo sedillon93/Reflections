@@ -44,5 +44,12 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    The result of merging branches is that all of the commits are then on a single
+    branch. This means that any changes made to either branch previously, unless
+    there is a conflict, will be present in the new branch. It is represented by
+    two lines converging in the diagram because that is what is happening; two
+    branches are coming together to make one new one that can trace back through
+    the commits of either branch.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
