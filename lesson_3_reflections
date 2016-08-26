@@ -11,3 +11,13 @@ stay up-to-date with your remote repository?
   There could be changes made to the remote version that you do not want to include in
   your code right now, or that you don't need yet, like if someone else is working on
   the same program.
+  
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+  A fork and clone are very similar; they create a copy of the repository that you select. The difference
+  is that a clone can be from local to local or from local to remote, while a fork is from remote to remote
+  (Git to Git). A branch is a set of commits in the repository which are connected by parent commits. There
+  can be multiple branches. You might want to use a fork when there is already a repository online that you
+  would like to use but don't have access to or don't want to change the original. A clone is useful because it
+  works on both remote and local repositories, and can be used to get a copy of a remote repository into your
+  local work space.
